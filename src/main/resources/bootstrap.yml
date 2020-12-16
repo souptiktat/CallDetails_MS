@@ -1,0 +1,6 @@
+spring: 
+  application: 
+    name: CallDetailsMS
+  profiles:    active: local
+  cloud:    config:      uri: http://localhost:1111
+      fail-fast: true
